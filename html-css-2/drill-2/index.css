@@ -1,0 +1,54 @@
+.top {
+    position: relative;
+    height: 200px;
+    width: 1100px;
+    border: solid black;
+    border-width: thick;
+    direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+#purple {
+    height: 130px;
+    width: 50px;
+    background-color: purple;
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+    z-index: 3;
+    border: 0px;
+
+}
+#green {
+    width: 400px;
+    height: 170px;
+    background-color: green;
+    position: absolute;
+    bottom: 15px;
+    left: 100px;
+    z-index: 3;
+    border: 0px;
+}
+#blue {
+    height: 170px;
+    width: 170px;
+    background-color: rgb(58, 189, 245);
+    position: absolute;
+    bottom: 15px;
+    left: 540px;
+    z-index: 3;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.middle {
+    height: 300px;
+    width: 1100px;
+    border: dotted;
+    border-width: thick;
+    position: relative;
+    top: 25px
+}
